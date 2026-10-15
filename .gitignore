@@ -1,0 +1,61 @@
+### Build output ###
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+out/
+bin/
+
+### Kotlin ###
+.kotlin
+
+### IDE - IntelliJ IDEA（整个目录都不入库） ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### IDE - Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IDE - NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### IDE - VS Code ###
+.vscode/
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Logs / local env ###
+*.log
+logs/
+hs_err_pid*.log
+replay_pid*.log
+.env
+.env.local
+application-local.properties
+application-local.yml
+
+### Local data / temp ###
+*.db
+*.sqlite
+mongo-data/
+uploads/
+temp/
+tmp/
