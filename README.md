@@ -1,4 +1,4 @@
-# RAG 期末复习 Q&A 助手
+# QuizForge · 考点熔炉
 
 > 一个基于 **Spring Boot 3 + Spring AI + MongoDB** 的期末复习刷题小站：
 > 上传 Word 讲义（或直接粘贴文本），调用大模型自动生成单项选择题，支持答题、错题本、收藏、学习统计和知识点思维导图。
@@ -39,7 +39,7 @@
 ## 📦 项目结构
 
 ```
-SpringAI/
+QuizForge/
 ├── pom.xml
 ├── README.md
 ├── .gitignore
@@ -86,8 +86,8 @@ SpringAI/
 ### 2. 克隆仓库
 
 ```bash
-git clone https://github.com/<你的用户名>/SpringAI.git
-cd SpringAI
+git clone https://github.com/<你的用户名>/QuizForge.git
+cd QuizForge
 ```
 
 ### 3. 配置 API Key
@@ -153,7 +153,7 @@ mvn spring-boot:run
 
 # 或先打包再运行
 mvn -DskipTests clean package
-java -jar target/SpringAI-1.0-SNAPSHOT.jar
+java -jar target/quizforge-1.0-SNAPSHOT.jar
 ```
 
 看到 `Started QuizApplication` 即代表启动成功。
